@@ -8,4 +8,3 @@ A shell script that creates a Docker container that can be used to build yocto p
 3. start the start_dev_environment.sh script as superuser. If no container exists yet, a new container is created.
 4. after completion, the container is executed in interactive mode. 
 
-Translated with DeepL.com (free version)
