@@ -11,7 +11,7 @@ RUN apt-get update && apt-get -y install gawk wget git-core \
     diffstat unzip texinfo gcc-multilib build-essential \
     chrpath socat cpio python3 python3-pip \
     python3-pexpect xz-utils debianutils iputils-ping \
-    libsdl1.2-dev tar xterm locales iproute2 file iptables zstd liblz4-tool sudo 
+    libsdl1.2-dev tar xterm locales iproute2 file iptables zstd liblz4-tool sudo vi  vim
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
